@@ -57,6 +57,8 @@ type Client struct {
 	Logger        Logger
 	SyncPresence  event.Presence
 
+	SkipFilterForSync bool // If true, the Syncer will not create a filter for /sync.
+
 	StreamSyncMinAge time.Duration
 
 	// Number of times that mautrix will retry any HTTP request
@@ -167,7 +169,7 @@ func (cli *Client) SyncWithContext(ctx context.Context) error {
 	syncingID := cli.incrementSyncingID()
 	nextBatch := cli.Store.LoadNextBatch(cli.UserID)
 	filterID := cli.Store.LoadFilterID(cli.UserID)
-	if filterID == "" {
+	if filterID == "" && !cli.SkipFilterForSync {
 		filterJSON := cli.Syncer.GetFilterJSON(cli.UserID)
 		resFilter, err := cli.CreateFilter(filterJSON)
 		if err != nil {
@@ -176,6 +178,7 @@ func (cli *Client) SyncWithContext(ctx context.Context) error {
 		filterID = resFilter.FilterID
 		cli.Store.SaveFilterID(cli.UserID, filterID)
 	}
+
 	lastSuccessfulSync := time.Now().Add(-cli.StreamSyncMinAge - 1*time.Hour)
 	for {
 		streamResp := false
