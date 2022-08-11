@@ -18,7 +18,7 @@ import (
 
 	log "maunium.net/go/maulogger/v2"
 
-	"maunium.net/go/mautrix/id"
+	"github.com/jkoenig134/mautrix-go/id"
 )
 
 type StateEvent string

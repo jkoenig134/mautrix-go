@@ -13,7 +13,7 @@ import (
 
 	"golang.org/x/net/html"
 
-	"maunium.net/go/mautrix/id"
+	"github.com/jkoenig134/mautrix-go/id"
 )
 
 var HTMLReplyFallbackRegex = regexp.MustCompile(`^<mx-reply>[\s\S]+?</mx-reply>`)

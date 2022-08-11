@@ -19,7 +19,7 @@ import (
 	"golang.org/x/crypto/hkdf"
 	"golang.org/x/crypto/pbkdf2"
 
-	"maunium.net/go/mautrix/util/base58"
+	"github.com/jkoenig134/mautrix-go/util/base58"
 )
 
 const (

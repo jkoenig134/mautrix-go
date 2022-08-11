@@ -12,8 +12,8 @@ import (
 
 	"maunium.net/go/maulogger/v2"
 
-	"maunium.net/go/mautrix/bridge"
-	"maunium.net/go/mautrix/id"
+	"github.com/jkoenig134/mautrix-go/bridge"
+	"github.com/jkoenig134/mautrix-go/id"
 )
 
 type Processor struct {

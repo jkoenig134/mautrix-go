@@ -9,7 +9,7 @@ package event
 import (
 	"sync"
 
-	"maunium.net/go/mautrix/id"
+	"github.com/jkoenig134/mautrix-go/id"
 )
 
 // PowerLevelsEventContent represents the content of a m.room.power_levels state event content.

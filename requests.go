@@ -3,9 +3,9 @@ package mautrix
 import (
 	"encoding/json"
 
-	"maunium.net/go/mautrix/event"
-	"maunium.net/go/mautrix/id"
-	"maunium.net/go/mautrix/pushrules"
+	"github.com/jkoenig134/mautrix-go/event"
+	"github.com/jkoenig134/mautrix-go/id"
+	"github.com/jkoenig134/mautrix-go/pushrules"
 )
 
 type AuthType string

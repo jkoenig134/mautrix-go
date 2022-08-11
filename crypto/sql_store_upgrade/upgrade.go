@@ -11,7 +11,7 @@ import (
 	"embed"
 	"fmt"
 
-	"maunium.net/go/mautrix/util/dbutil"
+	"github.com/jkoenig134/mautrix-go/util/dbutil"
 )
 
 var Table dbutil.UpgradeTable

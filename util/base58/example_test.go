@@ -7,7 +7,7 @@ package base58_test
 import (
 	"fmt"
 
-	"maunium.net/go/mautrix/util/base58"
+	"github.com/jkoenig134/mautrix-go/util/base58"
 )
 
 // This example demonstrates how to decode modified base58 encoded data.

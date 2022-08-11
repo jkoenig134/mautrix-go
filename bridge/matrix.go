@@ -14,12 +14,12 @@ import (
 
 	"maunium.net/go/maulogger/v2"
 
-	"maunium.net/go/mautrix"
-	"maunium.net/go/mautrix/appservice"
-	"maunium.net/go/mautrix/bridge/bridgeconfig"
-	"maunium.net/go/mautrix/event"
-	"maunium.net/go/mautrix/format"
-	"maunium.net/go/mautrix/id"
+	"github.com/jkoenig134/mautrix-go"
+	"github.com/jkoenig134/mautrix-go/appservice"
+	"github.com/jkoenig134/mautrix-go/bridge/bridgeconfig"
+	"github.com/jkoenig134/mautrix-go/event"
+	"github.com/jkoenig134/mautrix-go/format"
+	"github.com/jkoenig134/mautrix-go/id"
 )
 
 type CommandProcessor interface {

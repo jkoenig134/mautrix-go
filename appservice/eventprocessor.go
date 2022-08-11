@@ -12,8 +12,8 @@ import (
 
 	log "maunium.net/go/maulogger/v2"
 
-	"maunium.net/go/mautrix"
-	"maunium.net/go/mautrix/event"
+	"github.com/jkoenig134/mautrix-go"
+	"github.com/jkoenig134/mautrix-go/event"
 )
 
 type ExecMode uint8

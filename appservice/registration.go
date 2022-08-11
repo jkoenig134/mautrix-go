@@ -12,7 +12,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"maunium.net/go/mautrix/util"
+	"github.com/jkoenig134/mautrix-go/util"
 )
 
 // Registration contains the data in a Matrix appservice registration.

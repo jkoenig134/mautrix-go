@@ -12,11 +12,11 @@ package crypto
 import (
 	"context"
 
-	"maunium.net/go/mautrix/crypto/olm"
-	"maunium.net/go/mautrix/id"
+	"github.com/jkoenig134/mautrix-go/crypto/olm"
+	"github.com/jkoenig134/mautrix-go/id"
 
-	"maunium.net/go/mautrix"
-	"maunium.net/go/mautrix/event"
+	"github.com/jkoenig134/mautrix-go"
+	"github.com/jkoenig134/mautrix-go/event"
 )
 
 type KeyShareRejection struct {

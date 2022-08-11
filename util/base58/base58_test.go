@@ -9,7 +9,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"maunium.net/go/mautrix/util/base58"
+	"github.com/jkoenig134/mautrix-go/util/base58"
 )
 
 var stringTests = []struct {

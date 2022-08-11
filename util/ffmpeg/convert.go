@@ -17,7 +17,7 @@ import (
 
 	log "maunium.net/go/maulogger/v2"
 
-	"maunium.net/go/mautrix/util"
+	"github.com/jkoenig134/mautrix-go/util"
 )
 
 var ffmpegDefaultParams = []string{"-hide_banner", "-loglevel", "warning"}

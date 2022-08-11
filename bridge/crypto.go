@@ -19,11 +19,11 @@ import (
 
 	"maunium.net/go/maulogger/v2"
 
-	"maunium.net/go/mautrix"
-	"maunium.net/go/mautrix/bridge/bridgeconfig"
-	"maunium.net/go/mautrix/crypto"
-	"maunium.net/go/mautrix/event"
-	"maunium.net/go/mautrix/id"
+	"github.com/jkoenig134/mautrix-go"
+	"github.com/jkoenig134/mautrix-go/bridge/bridgeconfig"
+	"github.com/jkoenig134/mautrix-go/crypto"
+	"github.com/jkoenig134/mautrix-go/event"
+	"github.com/jkoenig134/mautrix-go/id"
 )
 
 var NoSessionFound = crypto.NoSessionFound

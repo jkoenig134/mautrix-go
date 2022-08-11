@@ -10,10 +10,10 @@ import (
 	"database/sql"
 	"testing"
 
-	"maunium.net/go/mautrix"
-	"maunium.net/go/mautrix/crypto/olm"
-	"maunium.net/go/mautrix/id"
-	"maunium.net/go/mautrix/util/dbutil"
+	"github.com/jkoenig134/mautrix-go"
+	"github.com/jkoenig134/mautrix-go/crypto/olm"
+	"github.com/jkoenig134/mautrix-go/id"
+	"github.com/jkoenig134/mautrix-go/util/dbutil"
 )
 
 func getOlmMachine(t *testing.T) *OlmMachine {

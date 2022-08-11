@@ -1,8 +1,8 @@
 package mautrix
 
 import (
-	"maunium.net/go/mautrix/event"
-	"maunium.net/go/mautrix/id"
+	"github.com/jkoenig134/mautrix-go/event"
+	"github.com/jkoenig134/mautrix-go/id"
 )
 
 // Storer is an interface which must be satisfied to store client data.

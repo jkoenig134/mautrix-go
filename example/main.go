@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"os"
 
-	"maunium.net/go/mautrix"
-	"maunium.net/go/mautrix/event"
+	"github.com/jkoenig134/mautrix-go"
+	"github.com/jkoenig134/mautrix-go/event"
 )
 
 var homeserver = flag.String("homeserver", "", "Matrix homeserver")

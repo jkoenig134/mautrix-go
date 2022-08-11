@@ -15,7 +15,7 @@ import (
 
 	log "maunium.net/go/maulogger/v2"
 
-	"maunium.net/go/mautrix/bridge/bridgeconfig"
+	"github.com/jkoenig134/mautrix-go/bridge/bridgeconfig"
 )
 
 type Dialect int

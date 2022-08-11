@@ -6,7 +6,7 @@ import "C"
 import (
 	"encoding/base64"
 
-	"maunium.net/go/mautrix/id"
+	"github.com/jkoenig134/mautrix-go/id"
 )
 
 // Signatures is the data structure used to sign JSON objects.
@@ -28,7 +28,7 @@ func errorVal() C.size_t {
 
 var unpaddedBase64 = base64.StdEncoding.WithPadding(base64.NoPadding)
 
-var pickleKey = []byte("maunium.net/go/mautrix/crypto/olm")
+var pickleKey = []byte("github.com/jkoenig134/mautrix-go/crypto/olm")
 
 // SetPickleKey sets the global pickle key used when encoding structs with Gob or JSON.
 func SetPickleKey(key []byte) {

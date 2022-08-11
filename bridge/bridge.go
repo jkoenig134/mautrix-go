@@ -21,14 +21,14 @@ import (
 	flag "maunium.net/go/mauflag"
 	log "maunium.net/go/maulogger/v2"
 
-	"maunium.net/go/mautrix"
-	"maunium.net/go/mautrix/appservice"
-	"maunium.net/go/mautrix/appservice/sqlstatestore"
-	"maunium.net/go/mautrix/bridge/bridgeconfig"
-	"maunium.net/go/mautrix/event"
-	"maunium.net/go/mautrix/id"
-	"maunium.net/go/mautrix/util/configupgrade"
-	"maunium.net/go/mautrix/util/dbutil"
+	"github.com/jkoenig134/mautrix-go"
+	"github.com/jkoenig134/mautrix-go/appservice"
+	"github.com/jkoenig134/mautrix-go/appservice/sqlstatestore"
+	"github.com/jkoenig134/mautrix-go/bridge/bridgeconfig"
+	"github.com/jkoenig134/mautrix-go/event"
+	"github.com/jkoenig134/mautrix-go/id"
+	"github.com/jkoenig134/mautrix-go/util/configupgrade"
+	"github.com/jkoenig134/mautrix-go/util/dbutil"
 )
 
 var configPath = flag.MakeFull("c", "config", "The path to your config file.", "config.yaml").String()

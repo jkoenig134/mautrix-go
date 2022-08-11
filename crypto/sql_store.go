@@ -14,11 +14,11 @@ import (
 	"strings"
 	"sync"
 
-	"maunium.net/go/mautrix/crypto/olm"
-	"maunium.net/go/mautrix/crypto/sql_store_upgrade"
-	"maunium.net/go/mautrix/event"
-	"maunium.net/go/mautrix/id"
-	"maunium.net/go/mautrix/util/dbutil"
+	"github.com/jkoenig134/mautrix-go/crypto/olm"
+	"github.com/jkoenig134/mautrix-go/crypto/sql_store_upgrade"
+	"github.com/jkoenig134/mautrix-go/event"
+	"github.com/jkoenig134/mautrix-go/id"
+	"github.com/jkoenig134/mautrix-go/util/dbutil"
 )
 
 var PostgresArrayWrapper func(interface{}) interface {

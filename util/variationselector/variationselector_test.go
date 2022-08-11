@@ -13,7 +13,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"maunium.net/go/mautrix/util/variationselector"
+	"github.com/jkoenig134/mautrix-go/util/variationselector"
 )
 
 func TestAdd(t *testing.T) {

@@ -12,11 +12,11 @@ import (
 
 	"maunium.net/go/maulogger/v2"
 
-	"maunium.net/go/mautrix/appservice"
-	"maunium.net/go/mautrix/bridge"
-	"maunium.net/go/mautrix/event"
-	"maunium.net/go/mautrix/format"
-	"maunium.net/go/mautrix/id"
+	"github.com/jkoenig134/mautrix-go/appservice"
+	"github.com/jkoenig134/mautrix-go/bridge"
+	"github.com/jkoenig134/mautrix-go/event"
+	"github.com/jkoenig134/mautrix-go/format"
+	"github.com/jkoenig134/mautrix-go/id"
 )
 
 // Event stores all data which might be used to handle commands

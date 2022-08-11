@@ -2,4 +2,4 @@ module mautrix-example
 
 go 1.15
 
-require maunium.net/go/mautrix v0.7.6
+require github.com/jkoenig134/mautrix-go v0.7.6

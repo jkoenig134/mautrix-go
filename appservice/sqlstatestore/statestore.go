@@ -13,10 +13,10 @@ import (
 	"errors"
 	"sync"
 
-	"maunium.net/go/mautrix/appservice"
-	"maunium.net/go/mautrix/event"
-	"maunium.net/go/mautrix/id"
-	"maunium.net/go/mautrix/util/dbutil"
+	"github.com/jkoenig134/mautrix-go/appservice"
+	"github.com/jkoenig134/mautrix-go/event"
+	"github.com/jkoenig134/mautrix-go/id"
+	"github.com/jkoenig134/mautrix-go/util/dbutil"
 )
 
 //go:embed *.sql

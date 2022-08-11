@@ -14,7 +14,7 @@ import (
 
 	"golang.org/x/net/html"
 
-	"maunium.net/go/mautrix/id"
+	"github.com/jkoenig134/mautrix-go/id"
 )
 
 type Context map[string]interface{}

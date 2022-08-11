@@ -7,7 +7,7 @@ import "C"
 import (
 	"unsafe"
 
-	"maunium.net/go/mautrix/id"
+	"github.com/jkoenig134/mautrix-go/id"
 )
 
 // InboundGroupSession stores an inbound encrypted messaging session for a

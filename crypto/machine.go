@@ -12,12 +12,12 @@ import (
 	"sync"
 	"time"
 
-	"maunium.net/go/mautrix/appservice"
-	"maunium.net/go/mautrix/crypto/ssss"
-	"maunium.net/go/mautrix/id"
+	"github.com/jkoenig134/mautrix-go/appservice"
+	"github.com/jkoenig134/mautrix-go/crypto/ssss"
+	"github.com/jkoenig134/mautrix-go/id"
 
-	"maunium.net/go/mautrix"
-	"maunium.net/go/mautrix/event"
+	"github.com/jkoenig134/mautrix-go"
+	"github.com/jkoenig134/mautrix-go/event"
 )
 
 // Logger is a simple logging struct for OlmMachine.

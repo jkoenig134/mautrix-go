@@ -12,8 +12,8 @@ import (
 	"strings"
 	"unicode"
 
-	"maunium.net/go/mautrix/event"
-	"maunium.net/go/mautrix/pushrules/glob"
+	"github.com/jkoenig134/mautrix-go/event"
+	"github.com/jkoenig134/mautrix-go/pushrules/glob"
 )
 
 // Room is an interface with the functions that are needed for processing room-specific push conditions

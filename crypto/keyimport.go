@@ -18,8 +18,8 @@ import (
 	"errors"
 	"fmt"
 
-	"maunium.net/go/mautrix/crypto/olm"
-	"maunium.net/go/mautrix/id"
+	"github.com/jkoenig134/mautrix-go/crypto/olm"
+	"github.com/jkoenig134/mautrix-go/id"
 )
 
 var (

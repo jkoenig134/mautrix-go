@@ -11,10 +11,10 @@ import (
 	"regexp"
 	"strings"
 
-	"maunium.net/go/mautrix/appservice"
-	"maunium.net/go/mautrix/id"
-	"maunium.net/go/mautrix/util"
-	up "maunium.net/go/mautrix/util/configupgrade"
+	"github.com/jkoenig134/mautrix-go/appservice"
+	"github.com/jkoenig134/mautrix-go/id"
+	"github.com/jkoenig134/mautrix-go/util"
+	up "github.com/jkoenig134/mautrix-go/util/configupgrade"
 )
 
 type HomeserverConfig struct {

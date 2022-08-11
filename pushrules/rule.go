@@ -9,9 +9,9 @@ package pushrules
 import (
 	"encoding/gob"
 
-	"maunium.net/go/mautrix/event"
-	"maunium.net/go/mautrix/id"
-	"maunium.net/go/mautrix/pushrules/glob"
+	"github.com/jkoenig134/mautrix-go/event"
+	"github.com/jkoenig134/mautrix-go/id"
+	"github.com/jkoenig134/mautrix-go/pushrules/glob"
 )
 
 func init() {

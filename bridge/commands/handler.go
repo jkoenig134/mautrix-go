@@ -7,8 +7,8 @@
 package commands
 
 import (
-	"maunium.net/go/mautrix/bridge"
-	"maunium.net/go/mautrix/bridge/bridgeconfig"
+	"github.com/jkoenig134/mautrix-go/bridge"
+	"github.com/jkoenig134/mautrix-go/bridge/bridgeconfig"
 )
 
 type MinimalHandler interface {

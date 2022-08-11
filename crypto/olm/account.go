@@ -12,8 +12,8 @@ import (
 	"github.com/tidwall/gjson"
 	"github.com/tidwall/sjson"
 
-	"maunium.net/go/mautrix/crypto/canonicaljson"
-	"maunium.net/go/mautrix/id"
+	"github.com/jkoenig134/mautrix-go/crypto/canonicaljson"
+	"github.com/jkoenig134/mautrix-go/id"
 )
 
 // Account stores a device account for end to end encrypted messaging.
