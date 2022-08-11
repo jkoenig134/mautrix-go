@@ -1,4 +1,4 @@
-module maunium.net/go/mautrix
+module github.com/jkoenig134/mautrix-go
 
 go 1.17
 
@@ -8,11 +8,11 @@ require (
 	github.com/lib/pq v1.10.6
 	github.com/mattn/go-sqlite3 v1.14.14
 	github.com/stretchr/testify v1.8.0
-	github.com/tidwall/gjson v1.14.1
-	github.com/tidwall/sjson v1.2.4
+	github.com/tidwall/gjson v1.14.2
+	github.com/tidwall/sjson v1.2.5
 	github.com/yuin/goldmark v1.4.12
-	golang.org/x/crypto v0.0.0-20220622213112-05595931fe9d
-	golang.org/x/net v0.0.0-20220624214902-1bab6f366d9e
+	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa
+	golang.org/x/net v0.0.0-20220809184613-07c6da5e1ced
 	gopkg.in/yaml.v3 v3.0.1
 	maunium.net/go/mauflag v1.0.0
 	maunium.net/go/maulogger/v2 v2.3.2
